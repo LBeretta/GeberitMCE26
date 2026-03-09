@@ -80,7 +80,7 @@ window.SCHEDULE_DATA = {
       "17:00-18:00": "backup"
     },
     "VENERDÌ 27": {
-      "9:00-10:00": "WC-SILENZ",
+      "9:00-10:00": "RISCACQUO SILENZIOSO",
       "10:00-11:00": "PANNELLO SCARICO 2",
       "11:00-12:00": "backup",
       "12:00-13:00": "PANNELLO FLOWFIT 1",
@@ -127,7 +127,7 @@ window.SCHEDULE_DATA = {
     },
     "VENERDÌ 27": {
       "9:00-10:00": "backup",
-      "10:00-11:00": "WC-SILENZ",
+      "10:00-11:00": "RISCACQUO SILENZIOSO",
       "11:00-12:00": "BTW",
       "12:00-13:00": "backup",
       "13:00-14:00": "BANCO FLOWFIT",
@@ -163,7 +163,7 @@ window.SCHEDULE_DATA = {
     "GIOVEDÌ 26": {
       "9:00-10:00": "BANCO FLOWFIT",
       "10:00-11:00": "ORA LIBERA",
-      "11:00-12:00": "WC-SILENZ",
+      "11:00-12:00": "RISCACQUO SILENZIOSO",
       "12:00-13:00": "backup",
       "13:00-14:00": "PANNELLO WC SYSTEM",
       "14:00-15:00": "backup",
@@ -345,7 +345,7 @@ window.SCHEDULE_DATA = {
       "17:00-18:00": "backup"
     },
     "GIOVEDÌ 26": {
-      "9:00-10:00": "WC-SILENZ",
+      "9:00-10:00": "RISCACQUO SILENZIOSO",
       "10:00-11:00": "backup",
       "11:00-12:00": "BTW",
       "12:00-13:00": "PANNELLO SOLUZIONI DOCCIA",
@@ -382,7 +382,7 @@ window.SCHEDULE_DATA = {
     "MERCOLEDÌ 25": {
       "9:00-10:00": "BTW",
       "10:00-11:00": "backup",
-      "11:00-12:00": "WC-SILENZ",
+      "11:00-12:00": "RISCACQUO SILENZIOSO",
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "BANCO FLOWFIT",
       "14:00-15:00": "PANNELLO FLOWFIT 1",
@@ -430,7 +430,7 @@ window.SCHEDULE_DATA = {
       "10:00-11:00": "backup",
       "11:00-12:00": "BANCO FLOWFIT",
       "12:00-13:00": "ORA LIBERA",
-      "13:00-14:00": "WC-SILENZ",
+      "13:00-14:00": "RISCACQUO SILENZIOSO",
       "14:00-15:00": "backup",
       "15:00-16:00": "BTW",
       "16:00-17:00": "backup",
@@ -499,7 +499,7 @@ window.SCHEDULE_DATA = {
       "11:00-12:00": "backup",
       "12:00-13:00": "PANNELLO SOLUZIONI DOCCIA",
       "13:00-14:00": "backup",
-      "14:00-15:00": "WC-SILENZ",
+      "14:00-15:00": "RISCACQUO SILENZIOSO",
       "15:00-16:00": "PANNELLO FLOWFIT 2",
       "16:00-17:00": "backup",
       "17:00-18:00": "PANNELLO SCARICO 1"
@@ -533,7 +533,7 @@ window.SCHEDULE_DATA = {
       "10:00-11:00": "PANNELLO SOLUZIONI DOCCIA",
       "11:00-12:00": "PANNELLO SCARICO 1",
       "12:00-13:00": "ORA LIBERA",
-      "13:00-14:00": "WC-SILENZ",
+      "13:00-14:00": "RISCACQUO SILENZIOSO",
       "14:00-15:00": "backup",
       "15:00-16:00": "BANCO SOLUZIONI DOCCIA",
       "16:00-17:00": "backup",
@@ -588,7 +588,7 @@ window.SCHEDULE_DATA = {
     "VENERDÌ 27": {
       "9:00-10:00": "PANNELLO SCARICO 2",
       "10:00-11:00": "backup",
-      "11:00-12:00": "WC-SILENZ",
+      "11:00-12:00": "RISCACQUO SILENZIOSO",
       "12:00-13:00": "PANNELLO SCARICO 2",
       "13:00-14:00": "backup",
       "14:00-15:00": "SELNOVA",
@@ -636,7 +636,7 @@ window.SCHEDULE_DATA = {
       "10:00-11:00": "backup",
       "11:00-12:00": "PANNELLO SCARICO 1",
       "12:00-13:00": "backup",
-      "13:00-14:00": "WC-SILENZ",
+      "13:00-14:00": "RISCACQUO SILENZIOSO",
       "14:00-15:00": "BANCO FLOWFIT",
       "15:00-16:00": "backup",
       "16:00-17:00": "DUOFIX MODULE",
@@ -649,7 +649,7 @@ window.SCHEDULE_DATA = {
       "10:00-11:00": "backup",
       "11:00-12:00": "BANCO SOLUZIONI DOCCIA",
       "12:00-13:00": "backup",
-      "13:00-14:00": "WC-SILENZ",
+      "13:00-14:00": "RISCACQUO SILENZIOSO",
       "14:00-15:00": "DUOFIX MODULE",
       "15:00-16:00": "ORA LIBERA",
       "16:00-17:00": "PANNELLO WC SYSTEM",
@@ -703,7 +703,7 @@ window.SCHEDULE_DATA = {
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "backup",
-      "10:00-11:00": "WC-SILENZ",
+      "10:00-11:00": "RISCACQUO SILENZIOSO",
       "11:00-12:00": "backup",
       "12:00-13:00": "PANNELLO FLOWFIT 1",
       "13:00-14:00": "ORA LIBERA",
@@ -731,14 +731,14 @@ window.SCHEDULE_DATA = {
       "13:00-14:00": "backup",
       "14:00-15:00": "PANNELLO SCARICO 2",
       "15:00-16:00": "backup",
-      "16:00-17:00": "WC-SILENZ",
+      "16:00-17:00": "RISCACQUO SILENZIOSO",
       "17:00-18:00": "PANNELLO SCARICO 2"
     }
   },
   "DAZSI": {
     "MARTEDÌ 24": {
       "9:00-10:00": "PANNELLO SCARICO 2",
-      "10:00-11:00": "WC-SILENZ",
+      "10:00-11:00": "RISCACQUO SILENZIOSO",
       "11:00-12:00": "ORA LIBERA",
       "12:00-13:00": "BANCO FLOWFIT",
       "13:00-14:00": "backup",
@@ -751,7 +751,7 @@ window.SCHEDULE_DATA = {
       "9:00-10:00": "ORA LIBERA",
       "10:00-11:00": "BANCO SOLUZIONI DOCCIA",
       "11:00-12:00": "backup",
-      "12:00-13:00": "WC-SILENZ",
+      "12:00-13:00": "RISCACQUO SILENZIOSO",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "DUOFIX MODULE",
       "15:00-16:00": "PANNELLO WC SYSTEM",
@@ -802,7 +802,7 @@ window.SCHEDULE_DATA = {
       "14:00-15:00": "ORA LIBERA",
       "15:00-16:00": "PANNELLO SCARICO 2",
       "16:00-17:00": "backup",
-      "17:00-18:00": "WC-SILENZ"
+      "17:00-18:00": "RISCACQUO SILENZIOSO"
     },
     "GIOVEDÌ 26": {
       "9:00-10:00": "backup",
@@ -846,7 +846,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "backup",
       "13:00-14:00": "TEST 500 PALLINE",
       "14:00-15:00": "backup",
-      "15:00-16:00": "WC-SILENZ",
+      "15:00-16:00": "RISCACQUO SILENZIOSO",
       "16:00-17:00": "ORA LIBERA",
       "17:00-18:00": "PANNELLO SOLUZIONI DOCCIA"
     },
@@ -859,7 +859,7 @@ window.SCHEDULE_DATA = {
       "14:00-15:00": "PANNELLO FLOWFIT 2",
       "15:00-16:00": "ORA LIBERA",
       "16:00-17:00": "BANCO FLOWFIT",
-      "17:00-18:00": "WC-SILENZ"
+      "17:00-18:00": "RISCACQUO SILENZIOSO"
     },
     "VENERDÌ 27": {
       "9:00-10:00": "ORA LIBERA",
@@ -868,7 +868,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "DUOFIX MODULE",
       "13:00-14:00": "PANNELLO FLOWFIT 1",
       "14:00-15:00": "backup",
-      "15:00-16:00": "WC-SILENZ",
+      "15:00-16:00": "RISCACQUO SILENZIOSO",
       "16:00-17:00": "BANCO WC SYSTEM",
       "17:00-18:00": "backup"
     }
@@ -881,7 +881,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "backup",
       "13:00-14:00": "BANCO WC SYSTEM",
       "14:00-15:00": "backup",
-      "15:00-16:00": "WC-SILENZ",
+      "15:00-16:00": "RISCACQUO SILENZIOSO",
       "16:00-17:00": "backup",
       "17:00-18:00": "BANCO FLOWFIT"
     },
@@ -946,7 +946,7 @@ window.SCHEDULE_DATA = {
       "9:00-10:00": "PANNELLO PLACCHE",
       "10:00-11:00": "DUOFIX MODULE",
       "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "WC-SILENZ",
+      "12:00-13:00": "RISCACQUO SILENZIOSO",
       "13:00-14:00": "backup",
       "14:00-15:00": "PANNELLO WC SYSTEM",
       "15:00-16:00": "backup",
@@ -983,7 +983,7 @@ window.SCHEDULE_DATA = {
       "11:00-12:00": "backup",
       "12:00-13:00": "BANCO SOLUZIONI DOCCIA",
       "13:00-14:00": "ORA LIBERA",
-      "14:00-15:00": "WC-SILENZ",
+      "14:00-15:00": "RISCACQUO SILENZIOSO",
       "15:00-16:00": "PANNELLO FLOWFIT 2",
       "16:00-17:00": "ORA LIBERA",
       "17:00-18:00": "PANNELLO SCARICO 2"
@@ -1066,7 +1066,7 @@ window.SCHEDULE_DATA = {
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "BANCO WC SYSTEM",
       "15:00-16:00": "backup",
-      "16:00-17:00": "WC-SILENZ",
+      "16:00-17:00": "RISCACQUO SILENZIOSO",
       "17:00-18:00": "backup"
     },
     "MERCOLEDÌ 25": {
@@ -1087,7 +1087,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "DUOFIX MODULE",
       "13:00-14:00": "PANNELLO FLOWFIT 1",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "WC-SILENZ",
+      "15:00-16:00": "RISCACQUO SILENZIOSO",
       "16:00-17:00": "backup",
       "17:00-18:00": "TEST 500 PALLINE"
     },
@@ -1110,7 +1110,7 @@ window.SCHEDULE_DATA = {
       "11:00-12:00": "PANNELLO PLACCHE",
       "12:00-13:00": "BANCO SOLUZIONI DOCCIA",
       "13:00-14:00": "ORA LIBERA",
-      "14:00-15:00": "WC-SILENZ",
+      "14:00-15:00": "RISCACQUO SILENZIOSO",
       "15:00-16:00": "backup",
       "16:00-17:00": "BANCO FLOWFIT",
       "17:00-18:00": "backup"
@@ -1178,7 +1178,7 @@ window.SCHEDULE_DATA = {
       "11:00-12:00": "ORA LIBERA",
       "12:00-13:00": "BANCO WC SYSTEM",
       "13:00-14:00": "backup",
-      "14:00-15:00": "WC-SILENZ",
+      "14:00-15:00": "RISCACQUO SILENZIOSO",
       "15:00-16:00": "backup",
       "16:00-17:00": "PANNELLO SCARICO 2",
       "17:00-18:00": "PANNELLO FLOWFIT 2"
@@ -1205,7 +1205,7 @@ window.SCHEDULE_DATA = {
       "14:00-15:00": "ORA LIBERA",
       "15:00-16:00": "PANNELLO SOLUZIONI DOCCIA",
       "16:00-17:00": "backup",
-      "17:00-18:00": "WC-SILENZ"
+      "17:00-18:00": "RISCACQUO SILENZIOSO"
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "backup",
@@ -1238,7 +1238,7 @@ window.SCHEDULE_DATA = {
       "14:00-15:00": "DUOFIX MODULE",
       "15:00-16:00": "BANCO SOLUZIONI DOCCIA",
       "16:00-17:00": "backup",
-      "17:00-18:00": "WC-SILENZ"
+      "17:00-18:00": "RISCACQUO SILENZIOSO"
     }
   },
   "RIGMA": {
@@ -1254,7 +1254,7 @@ window.SCHEDULE_DATA = {
       "17:00-18:00": "DUOFIX MODULE"
     },
     "MERCOLEDÌ 25": {
-      "9:00-10:00": "WC-SILENZ",
+      "9:00-10:00": "RISCACQUO SILENZIOSO",
       "10:00-11:00": "backup",
       "11:00-12:00": "SELNOVA",
       "12:00-13:00": "ORA LIBERA",
@@ -1384,7 +1384,7 @@ window.SCHEDULE_DATA = {
       "9:00-10:00": "ORA LIBERA",
       "10:00-11:00": "PANNELLO PLACCHE",
       "11:00-12:00": "backup",
-      "12:00-13:00": "WC-SILENZ",
+      "12:00-13:00": "RISCACQUO SILENZIOSO",
       "13:00-14:00": "backup",
       "14:00-15:00": "PANNELLO FLOWFIT 1",
       "15:00-16:00": "ORA LIBERA",
@@ -1404,7 +1404,7 @@ window.SCHEDULE_DATA = {
     },
     "GIOVEDÌ 26": {
       "9:00-10:00": "ORA LIBERA",
-      "10:00-11:00": "WC-SILENZ",
+      "10:00-11:00": "RISCACQUO SILENZIOSO",
       "11:00-12:00": "PANNELLO SOLUZIONI DOCCIA",
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "BANCO FLOWFIT",
@@ -1429,7 +1429,7 @@ window.SCHEDULE_DATA = {
     "MARTEDÌ 24": {
       "9:00-10:00": "backup",
       "10:00-11:00": "PANNELLO FLOWFIT 1",
-      "11:00-12:00": "WC-SILENZ",
+      "11:00-12:00": "RISCACQUO SILENZIOSO",
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "BANCO FLOWFIT",
       "14:00-15:00": "backup",
@@ -1445,7 +1445,7 @@ window.SCHEDULE_DATA = {
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "SELNOVA",
       "15:00-16:00": "backup",
-      "16:00-17:00": "WC-SILENZ",
+      "16:00-17:00": "RISCACQUO SILENZIOSO",
       "17:00-18:00": "backup"
     },
     "GIOVEDÌ 26": {
@@ -1502,7 +1502,7 @@ window.SCHEDULE_DATA = {
       "13:00-14:00": "PANNELLO PLACCHE",
       "14:00-15:00": "backup",
       "15:00-16:00": "PANNELLO WC SYSTEM",
-      "16:00-17:00": "WC-SILENZ",
+      "16:00-17:00": "RISCACQUO SILENZIOSO",
       "17:00-18:00": "ORA LIBERA"
     },
     "VENERDÌ 27": {
@@ -1565,7 +1565,7 @@ window.SCHEDULE_DATA = {
   },
   "PEYFA": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "WC-SILENZ",
+      "9:00-10:00": "RISCACQUO SILENZIOSO",
       "10:00-11:00": "ORA LIBERA",
       "11:00-12:00": "TEST 500 PALLINE",
       "12:00-13:00": "BANCO WC SYSTEM",
@@ -1601,7 +1601,7 @@ window.SCHEDULE_DATA = {
       "9:00-10:00": "SELNOVA",
       "10:00-11:00": "backup",
       "11:00-12:00": "PANNELLO WC SYSTEM",
-      "12:00-13:00": "WC-SILENZ",
+      "12:00-13:00": "RISCACQUO SILENZIOSO",
       "13:00-14:00": "backup",
       "14:00-15:00": "TEST 500 PALLINE",
       "15:00-16:00": "SELNOVA",
@@ -1875,5 +1875,6 @@ window.LUNCH_BREAKS = {
     "VENERDÌ 27": ""
   }
 };
+
 
 
