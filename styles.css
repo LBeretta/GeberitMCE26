@@ -481,3 +481,26 @@ h1{
 
   .mobile-only{display:block}
 }
+.now-next-highlight{
+  background:linear-gradient(180deg,#f2f9ff,#ffffff);
+  border:1px solid #bfddf4;
+  border-radius:16px;
+  padding:14px;
+}
+
+.next-icon-circle{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  margin-right:8px;
+  border-radius:50%;
+  background:var(--blue);
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+  vertical-align:middle;
+  box-shadow:0 6px 14px rgba(0,119,200,.18);
+}
+
