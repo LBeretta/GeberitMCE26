@@ -1,4 +1,3 @@
-
 const schedule = window.SCHEDULE_DATA || {};
 const lunchBreaks = window.LUNCH_BREAKS || {};
 const consultants = Object.keys(schedule).sort();
@@ -44,18 +43,25 @@ function normalize(value){
 function parseHour(slot){
   if(!slot) return null;
   const part = slot.split('-')[0];
-  const [h,m] = part.split(':').map(Number);
+  const [h, m] = part.split(':').map(Number);
   if(Number.isNaN(h) || Number.isNaN(m)) return null;
   return h * 60 + m;
 }
 
 function parseRange(slot){
   if(!slot || !slot.includes('-')) return null;
-  const [start,end] = slot.split('-').map(s=>s.trim());
+  const [start, end] = slot.split('-').map(s => s.trim());
   const startMin = parseHour(start + '-x');
   const endPart = end.split(':').map(Number);
   if(startMin === null || endPart.some(Number.isNaN)) return null;
-  return {start:startMin,end:endPart[0]*60+endPart[1]};
+  return {
+    start: startMin,
+    end: endPart[0] * 60 + endPart[1]
+  };
+}
+
+function rangesOverlap(a, b){
+  return !!(a && b && a.start < b.end && b.start < a.end);
 }
 
 function getCurrentInfo(name){
@@ -65,36 +71,54 @@ function getCurrentInfo(name){
   const hhmm = now.getHours() * 60 + now.getMinutes();
   const weekday = ['DOMENICA','LUNEDÌ','MARTEDÌ','MERCOLEDÌ','GIOVEDÌ','VENERDÌ','SABATO'][now.getDay()];
   const activeDay = Object.keys(days).find(day => day.startsWith(weekday));
+
   if(!activeDay) return null;
+
   const slots = days[activeDay] || {};
+  const orderedSlots = Object.entries(slots)
+    .map(([time, station]) => ({
+      time,
+      station,
+      range: parseRange(time)
+    }))
+    .filter(item => item.range)
+    .sort((a, b) => a.range.start - b.range.start);
+
   let currentShift = null;
   let nextShift = null;
 
-  for(const [time, station] of Object.entries(slots)){
-    const range = parseRange(time);
-    if(!range) continue;
-    if(hhmm >= range.start && hhmm < range.end) currentShift = {time, station};
-    if(!nextShift && hhmm < range.start) nextShift = {time, station};
+  for(const item of orderedSlots){
+    if(hhmm >= item.range.start && hhmm < item.range.end){
+      currentShift = { time: item.time, station: item.station };
+    }
+    if(!nextShift && hhmm < item.range.start){
+      nextShift = { time: item.time, station: item.station };
+    }
   }
 
-  let lunchSlot = lunch[activeDay] || '';
+  const lunchSlot = lunch[activeDay] || '';
   let lunchNow = false;
+
   if(lunchSlot){
     const range = parseRange(lunchSlot);
-    if(range && hhmm >= range.start && hhmm < range.end) lunchNow = true;
+    if(range && hhmm >= range.start && hhmm < range.end){
+      lunchNow = true;
+    }
   }
 
-  return {activeDay, currentShift, nextShift, lunchSlot, lunchNow};
+  return { activeDay, currentShift, nextShift, lunchSlot, lunchNow };
 }
 
 function renderConsultantList(filter = ''){
   const filtered = consultants.filter(name => normalize(name).includes(normalize(filter)));
   countBadge.textContent = filtered.length;
   consultantList.innerHTML = '';
+
   if(!filtered.length){
     consultantList.innerHTML = '<div class="consultant-btn">Nessun consulente trovato</div>';
     return;
   }
+
   filtered.forEach(name => {
     const btn = document.createElement('button');
     btn.className = 'consultant-btn';
@@ -104,6 +128,7 @@ function renderConsultantList(filter = ''){
     btn.addEventListener('click', () => selectConsultant(name));
     consultantList.appendChild(btn);
   });
+
   highlightActiveButton();
 }
 
@@ -123,12 +148,15 @@ function selectConsultant(name){
   activeConsultant = name;
   setHash(name);
   consultantName.textContent = name;
+
   const days = schedule[name] || {};
   const lunch = lunchBreaks[name] || {};
-  const lunchEntries = Object.entries(lunch).filter(([,slot]) => slot);
+  const lunchEntries = Object.entries(lunch).filter(([, slot]) => slot);
   const turns = Object.values(days).reduce((sum, day) => sum + Object.keys(day || {}).length, 0);
+
   totalTurns.textContent = turns;
   lunchCount.textContent = lunchEntries.length;
+
   emptyState.classList.add('hidden');
   consultantView.classList.remove('hidden');
 
@@ -138,11 +166,12 @@ function selectConsultant(name){
 
   quickStatus.classList.remove('hidden');
   quickStatus.textContent = 'Stai guardando: ' + name;
-  highlightActiveButton();
 
+  highlightActiveButton();
   collapseSearchPanel();
+
   if(isMobileLayout()){
-    consultantView.scrollIntoView({behavior:'smooth',block:'start'});
+    consultantView.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
@@ -153,21 +182,67 @@ function renderNowCard(name){
     nowCard.innerHTML = '';
     return;
   }
-  const title = info.lunchNow ? 'Sei in pausa pranzo' : (info.currentShift ? 'Turno in corso' : 'Prossimo turno');
-  const main = info.lunchNow
-    ? (info.lunchSlot || 'Pausa pranzo')
-    : (info.currentShift ? (info.currentShift.station || '—') : (info.nextShift ? (info.nextShift.station || '—') : 'Nessun turno attivo'));
-  const sub = info.lunchNow
-    ? (info.activeDay + ' · ' + info.lunchSlot)
-    : (info.currentShift
-      ? (info.activeDay + ' · ' + info.currentShift.time)
-      : (info.nextShift ? (info.activeDay + ' · ' + info.nextShift.time) : 'Fuori dall’orario fiera'));
+
+  const isLunch = info.lunchNow;
+  const hasCurrent = !!info.currentShift;
+  const hasNext = !!info.nextShift;
+
+  let title = '';
+  let currentBlock = '';
+  let nextBlock = '';
+
+  if(isLunch){
+    title = 'Sei in pausa pranzo';
+    currentBlock = `
+      <div class="now-section">
+        <div class="now-label">Pausa in corso</div>
+        <div class="now-main">${info.lunchSlot || 'Pausa pranzo'}</div>
+        <div class="now-sub">${info.activeDay}</div>
+      </div>
+    `;
+  } else if(hasCurrent){
+    title = 'Turno attuale';
+    currentBlock = `
+      <div class="now-section">
+        <div class="now-label">In corso</div>
+        <div class="now-main">${info.currentShift.station || '—'}</div>
+        <div class="now-sub">${info.activeDay} · ${info.currentShift.time}</div>
+      </div>
+    `;
+  } else {
+    title = 'Prossimo turno';
+    currentBlock = `
+      <div class="now-section">
+        <div class="now-label">Stato</div>
+        <div class="now-main">Nessun turno attivo</div>
+        <div class="now-sub">${info.activeDay}</div>
+      </div>
+    `;
+  }
+
+  if(hasNext){
+    nextBlock = `
+      <div class="now-section now-next">
+        <div class="now-label">Turno successivo</div>
+        <div class="now-main">${info.nextShift.station || '—'}</div>
+        <div class="now-sub">${info.activeDay} · ${info.nextShift.time}</div>
+      </div>
+    `;
+  } else if(hasCurrent || isLunch){
+    nextBlock = `
+      <div class="now-section now-next">
+        <div class="now-label">Turno successivo</div>
+        <div class="now-main">Nessuno</div>
+        <div class="now-sub">Nessun altro turno previsto oggi</div>
+      </div>
+    `;
+  }
 
   nowCard.classList.remove('hidden');
   nowCard.innerHTML = `
     <div class="now-title">${title}</div>
-    <div class="now-main">${main}</div>
-    <div class="now-sub">${sub}</div>
+    ${currentBlock}
+    ${nextBlock}
   `;
 }
 
@@ -177,6 +252,7 @@ function renderLunchCard(lunchEntries){
     lunchCard.innerHTML = '';
     return;
   }
+
   lunchCard.classList.remove('hidden');
   lunchCard.innerHTML = `
     <div class="lunch-title">Pause pranzo</div>
@@ -196,11 +272,15 @@ function renderDays(name){
   const lunch = lunchBreaks[name] || {};
   const info = getCurrentInfo(name);
   daysContainer.innerHTML = '';
+
   Object.entries(days).forEach(([day, slots]) => {
     const card = document.createElement('section');
     card.className = 'card day-card';
+
     const filledCount = Object.values(slots).filter(Boolean).length;
     const lunchSlot = lunch[day] || '';
+    const lunchRange = parseRange(lunchSlot);
+
     card.innerHTML = `
       <div class="day-header">
         <h3>${day}</h3>
@@ -208,8 +288,10 @@ function renderDays(name){
       </div>
       <div class="shift-list">
         ${Object.entries(slots).map(([time, station]) => {
+          const slotRange = parseRange(time);
           const isCurrent = info && info.activeDay === day && info.currentShift && info.currentShift.time === time;
-          const isLunch = !!lunchSlot && lunchSlot === time;
+          const isLunch = rangesOverlap(slotRange, lunchRange);
+
           return `
             <div class="shift-row ${isCurrent ? 'current' : ''} ${isLunch ? 'lunch' : ''}">
               <div class="shift-time">${time}</div>
@@ -222,6 +304,7 @@ function renderDays(name){
         }).join('')}
       </div>
     `;
+
     daysContainer.appendChild(card);
   });
 }
@@ -234,6 +317,7 @@ function initFromHash(){
     selectConsultant(hash);
     return;
   }
+
   renderConsultantList('');
 }
 
@@ -241,6 +325,7 @@ consultantSearch.addEventListener('input', (e) => {
   expandSearchPanel();
   const value = e.target.value;
   renderConsultantList(value);
+
   const exact = consultants.find(name => normalize(name) === normalize(value));
   if(exact){
     selectConsultant(exact);
