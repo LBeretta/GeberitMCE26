@@ -220,23 +220,26 @@ function renderNowCard(name){
     `;
   }
 
-  if(hasNext){
-    nextBlock = `
-      <div class="now-section now-next">
-        <div class="now-label">Turno successivo</div>
-        <div class="now-main">${info.nextShift.station || '—'}</div>
-        <div class="now-sub">${info.activeDay} · ${info.nextShift.time}</div>
+if(hasNext){
+  nextBlock = `
+    <div class="now-section now-next now-next-highlight">
+      <div class="now-label">Turno successivo</div>
+      <div class="now-main">
+        <span class="next-icon-circle">→</span>
+        ${info.nextShift.station || '—'}
       </div>
-    `;
-  } else if(hasCurrent || isLunch){
-    nextBlock = `
-      <div class="now-section now-next">
-        <div class="now-label">Turno successivo</div>
-        <div class="now-main">Nessuno</div>
-        <div class="now-sub">Nessun altro turno previsto oggi</div>
-      </div>
-    `;
-  }
+      <div class="now-sub">${info.activeDay} · ${info.nextShift.time}</div>
+    </div>
+  `;
+} else if(hasCurrent || isLunch){
+  nextBlock = `
+    <div class="now-section now-next">
+      <div class="now-label">Turno successivo</div>
+      <div class="now-main">Nessuno</div>
+      <div class="now-sub">Nessun altro turno previsto oggi</div>
+    </div>
+  `;
+}
 
   nowCard.classList.remove('hidden');
   nowCard.innerHTML = `
