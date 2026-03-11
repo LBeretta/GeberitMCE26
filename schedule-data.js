@@ -393,24 +393,24 @@ window.SCHEDULE_DATA = {
     "GIOVEDÌ 26": {
       "9:00-10:00": "BANCO FLOWFIT",
       "10:00-11:00": "ORA LIBERA",
-      "11:00-12:00": "TEST 500 PALLINE",
+      "11:00-12:00": "RISCIACQUO SILENZIOSO",
       "12:00-13:00": "ORA LIBERA",
-      "13:00-14:00": "PANNELLO SCARICO 2",
+      "13:00-14:00": "PANNELLO WC SYSTEM",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO FLOWFIT",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "BANCO SOLUZIONI DOCCIA"
+      "15:00-16:00": "PANNELLO SCARICO 2",
+      "16:00-17:00": "PANNELLO PLACCHE",
+      "17:00-18:00": "ORA LIBERA"
     },
     "VENERDÌ 27": {
-      "9:00-10:00": "PANNELLO FLOWFIT 1",
-      "10:00-11:00": "PANNELLO SCARICO 1",
+      "9:00-10:00": "ORA LIBERA",
+      "10:00-11:00": "TEST 500 PALLINE",
       "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "PANNELLO WC SYSTEM",
-      "13:00-14:00": "ORA LIBERA",
-      "14:00-15:00": "DUOFIX MODULE",
-      "15:00-16:00": "BANCO SOLUZIONI DOCCIA",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "RISCACQUO SILENZIOSO"
+      "12:00-13:00": "PANNELLO FLOWFIT 2",
+      "13:00-14:00": "BANCO WC SYSTEM",
+      "14:00-15:00": "ORA LIBERA",
+      "15:00-16:00": "DUOFIX MODULE",
+      "16:00-17:00": "PANNELLO WC SYSTEM",
+      "17:00-18:00": "ORA LIBERA"
     }
   },
   "BER": {
@@ -553,7 +553,7 @@ window.SCHEDULE_DATA = {
   },
   "CERAL3": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "ORA LIBERA",
+      "9:00-10:00": "PANNELLO FLOWFIT 1",
       "10:00-11:00": "BANCO FLOWFIT",
       "11:00-12:00": "ORA LIBERA",
       "12:00-13:00": "PANNELLO FLOWFIT 2",
@@ -783,15 +783,15 @@ window.SCHEDULE_DATA = {
   },
   "FOSMA": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "ORA LIBERA",
-      "10:00-11:00": "BANCO SOLUZIONI DOCCIA",
-      "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "DUOFIX MODULE",
-      "13:00-14:00": "ORA LIBERA",
+      "9:00-10:00": "BTW",
+      "10:00-11:00": "ORA LIBERA",
+      "11:00-12:00": "BANCO FLOWFIT",
+      "12:00-13:00": "ORA LIBERA",
+      "13:00-14:00": "PANNELLO FLOWFIT 2",
       "14:00-15:00": "PANNELLO SOLUZIONI DOCCIA",
-      "15:00-16:00": "PANNELLO FLOWFIT 1",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO WC SYSTEM"
+      "15:00-16:00": "ORA LIBERA",
+      "16:00-17:00": "DUOFIX MODULE",
+      "17:00-18:00": "ORA LIBERA"
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "ORA LIBERA",
@@ -809,11 +809,11 @@ window.SCHEDULE_DATA = {
       "10:00-11:00": "PANNELLO FLOWFIT 2",
       "11:00-12:00": "ORA LIBERA",
       "12:00-13:00": "BANCO FLOWFIT",
-      "13:00-14:00": "PANNELLO SCARICO 1",
-      "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BTW",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO PLACCHE"
+      "13:00-14:00": "ORA LIBERA",
+      "14:00-15:00": "RISCIACQUO SILENZIOSO",
+      "15:00-16:00": "ORA LIBERA",
+      "16:00-17:00": "PANNELLO SCARICO 2",
+      "17:00-18:00": "PANNELLO FLOWFIT 2"
     },
     "VENERDÌ 27": {
       "9:00-10:00": "ORA LIBERA",
