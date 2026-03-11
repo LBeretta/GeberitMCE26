@@ -93,15 +93,15 @@ window.SCHEDULE_DATA = {
   },
   "GIRMA2": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "DUOFIX MODULE",
-      "10:00-11:00": "ORA LIBERA",
-      "11:00-12:00": "PANNELLO FLOWFIT 1",
-      "12:00-13:00": "ORA LIBERA",
-      "13:00-14:00": "BTW",
-      "14:00-15:00": "SELNOVA",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "BANCO WC SYSTEM",
-      "17:00-18:00": "ORA LIBERA"
+      "9:00-10:00": "ORA LIBERA",
+      "10:00-11:00": "BANCO WC SYSTEM",
+      "11:00-12:00": "ORA LIBERA",
+      "12:00-13:00": "PANNELLO WC SYSTEM",
+      "13:00-14:00": "DUOFIX MODULE",
+      "14:00-15:00": "ORA LIBERA",
+      "15:00-16:00": "BANCO FLOWFIT",
+      "16:00-17:00": "ORA LIBERA",
+      "17:00-18:00": "PANNELLO SCARICO 2"
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "BANCO FLOWFIT",
@@ -139,15 +139,15 @@ window.SCHEDULE_DATA = {
   },
   "MONRO": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "ORA LIBERA",
-      "10:00-11:00": "BANCO WC SYSTEM",
-      "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "PANNELLO WC SYSTEM",
-      "13:00-14:00": "DUOFIX MODULE",
-      "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO FLOWFIT",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO SCARICO 2"
+      "9:00-10:00": "DUOFIX MODULE",
+      "10:00-11:00": "ORA LIBERA",
+      "11:00-12:00": "PANNELLO FLOWFIT 1",
+      "12:00-13:00": "ORA LIBERA",
+      "13:00-14:00": "BTW",
+      "14:00-15:00": "SELNOVA",
+      "15:00-16:00": "ORA LIBERA",
+      "16:00-17:00": "BANCO WC SYSTEM",
+      "17:00-18:00": "ORA LIBERA"
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "ORA LIBERA",
