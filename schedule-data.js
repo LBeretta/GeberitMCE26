@@ -599,15 +599,15 @@ window.SCHEDULE_DATA = {
   },
   "COLOR": {
     "MARTEDÌ 24": {
-      "9:00-10:00": "ORA LIBERA",
-      "10:00-11:00": "BANCO WC SYSTEM",
-      "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "PANNELLO WC SYSTEM",
-      "13:00-14:00": "DUOFIX MODULE",
-      "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO FLOWFIT",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO SCARICO 2"
+      "9:00-10:00": "PANNELLO PLACCHE",
+      "10:00-11:00": "ORA LIBERA",
+      "11:00-12:00": "BANCO FLOWFIT",
+      "12:00-13:00": "ORA LIBERA",
+      "13:00-14:00": "PANNELLO SOLUZIONI DOCCIA",
+      "14:00-15:00": "BANCO FLOWFIT",
+      "15:00-16:00": "ORA LIBERA",
+      "16:00-17:00": "TEST 500 PALLINE",
+      "17:00-18:00": "ORA LIBERA"
     },
     "MERCOLEDÌ 25": {
       "9:00-10:00": "DUOFIX MODULE",
