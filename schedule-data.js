@@ -40,9 +40,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "TEST 500 PALLINE",
       "13:00-14:00": "BANCO SOLUZIONI DOCCIA",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO FLOWFIT",
-      "16:00-17:00": "PANNELLO SCARICO 1",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "BANCO FLOWFIT"
     }
   },
   "COS": {
@@ -86,9 +84,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO FLOWFIT 1",
       "13:00-14:00": "PANNELLO WC SYSTEM",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "PANNELLO SOLUZIONI DOCCIA",
-      "16:00-17:00": "BANCO FLOWFIT",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "PANNELLO SOLUZIONI DOCCIA"
     }
   },
   "GIRMA2": {
@@ -132,9 +128,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "BANCO FLOWFIT",
       "14:00-15:00": "PANNELLO WC SYSTEM",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "PANNELLO FLOWFIT 1",
-      "17:00-18:00": "SELNOVA"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "MONRO": {
@@ -178,9 +172,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "BANCO WC SYSTEM",
       "13:00-14:00": "DUOFIX",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BTW",
-      "16:00-17:00": "BANCO FLOWFIT",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "BTW"
     }
   },
   "CARAD": {
@@ -224,9 +216,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "SGAPR": {
@@ -270,9 +260,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "AMIAL": {
@@ -316,9 +304,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "DER": {
@@ -362,9 +348,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "ARO": {
@@ -408,9 +392,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO FLOWFIT 2",
       "13:00-14:00": "BANCO WC SYSTEM",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "DUOFIX",
-      "16:00-17:00": "PANNELLO WC SYSTEM",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "DUOFIX"
     }
   },
   "BER": {
@@ -454,9 +436,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO SCARICO 1",
       "13:00-14:00": "BANCO FLOWFIT",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "PANNELLO PLACCHE",
-      "16:00-17:00": "BANCO SOLUZIONI DOCCIA",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "PANNELLO PLACCHE"
     }
   },
   "BRUPA": {
@@ -500,9 +480,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "SELNOVA",
       "14:00-15:00": "BANCO FLOWFIT",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "DUOFIX",
-      "17:00-18:00": "PANNELLO SCARICO 1"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "BUCGI": {
@@ -546,9 +524,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "BTW",
       "14:00-15:00": "PANNELLO SOLUZIONI DOCCIA",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "PANNELLO PLACCHE",
-      "17:00-18:00": "BANCO WC SYSTEM"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "COLOR": {
@@ -592,9 +568,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "DUOFIX",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "PANNELLO PLACCHE",
-      "15:00-16:00": "TEST 500 PALLINE",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "RISCIACQUO SILENZIOSO"
+      "15:00-16:00": "TEST 500 PALLINE"
     }
   },
   "CRS": {
@@ -638,9 +612,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "BANCO FLOWFIT",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "PANNELLO FLOWFIT 1",
-      "15:00-16:00": "PANNELLO FLOWFIT 2",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "BTW"
+      "15:00-16:00": "PANNELLO FLOWFIT 2"
     }
   },
   "CICCA": {
@@ -684,9 +656,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "BANCO SOLUZIONI DOCCIA",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "PANNELLO SCARICO 2",
-      "15:00-16:00": "RISCIACQUO SILENZIOSO",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "BANCO FLOWFIT"
+      "15:00-16:00": "RISCIACQUO SILENZIOSO"
     }
   },
   "DAZSI": {
@@ -730,9 +700,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "PANNELLO PLACCHE",
       "14:00-15:00": "BANCO SOLUZIONI DOCCIA",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "BTW",
-      "17:00-18:00": "TEST 500 PALLINE"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "FOSMA": {
@@ -776,9 +744,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO SCARICO 2",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "SELNOVA",
-      "15:00-16:00": "PANNELLO SCARICO 1",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO FLOWFIT 1"
+      "15:00-16:00": "PANNELLO SCARICO 1"
     }
   },
   "MAF": {
@@ -822,9 +788,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO SOLUZIONI DOCCIA",
       "13:00-14:00": "PANNELLO FLOWFIT 2",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO WC SYSTEM",
-      "16:00-17:00": "SELNOVA",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "BANCO WC SYSTEM"
     }
   },
   "POMST": {
@@ -868,9 +832,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO WC SYSTEM",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "DUOFIX",
-      "15:00-16:00": "BANCO SOLUZIONI DOCCIA",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO SCARICO 2"
+      "15:00-16:00": "BANCO SOLUZIONI DOCCIA"
     }
   },
   "TERAL": {
@@ -914,9 +876,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "TEST 500 PALLINE",
       "14:00-15:00": "PANNELLO SCARICO 1",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "PANNELLO SOLUZIONI DOCCIA",
-      "17:00-18:00": "BANCO FLOWFIT"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "ROT": {
@@ -960,9 +920,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "RAMFR": {
@@ -1006,9 +964,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "DANMI": {
@@ -1052,9 +1008,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "BANCO FLOWFIT",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "BTW",
-      "15:00-16:00": "PANNELLO SCARICO 2",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "BANCO SOLUZIONI DOCCIA"
+      "15:00-16:00": "PANNELLO SCARICO 2"
     }
   },
   "DEP": {
@@ -1098,9 +1052,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "PANNELLO SCARICO 2",
       "14:00-15:00": "RISCIACQUO SILENZIOSO",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "RISCIACQUO SILENZIOSO",
-      "17:00-18:00": "DUOFIX"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "MOLED": {
@@ -1144,9 +1096,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "SELNOVA",
       "13:00-14:00": "RISCIACQUO SILENZIOSO",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "PANNELLO FLOWFIT 1",
-      "16:00-17:00": "PANNELLO FLOWFIT 2",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "PANNELLO FLOWFIT 1"
     }
   },
   "PAV": {
@@ -1190,9 +1140,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "PANNELLO FLOWFIT 1",
       "14:00-15:00": "PANNELLO FLOWFIT 2",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "BANCO WC SYSTEM",
-      "17:00-18:00": "PANNELLO SOLUZIONI DOCCIA"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "RIGMA": {
@@ -1236,9 +1184,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "ORA LIBERA",
       "13:00-14:00": "PANNELLO SCARICO 1",
       "14:00-15:00": "BANCO FLOWFIT",
-      "15:00-16:00": "ORA LIBERA",
-      "16:00-17:00": "PANNELLO SCARICO 2",
-      "17:00-18:00": "PANNELLO FLOWFIT 2"
+      "15:00-16:00": "ORA LIBERA"
     }
   },
   "TREST2": {
@@ -1282,9 +1228,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "ASE": {
@@ -1328,9 +1272,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "BTW",
       "13:00-14:00": "PANNELLO SOLUZIONI DOCCIA",
       "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "BANCO FLOWFIT",
-      "16:00-17:00": "TEST 500 PALLINE",
-      "17:00-18:00": "ORA LIBERA"
+      "15:00-16:00": "BANCO FLOWFIT"
     }
   },
   "SMAAN": {
@@ -1374,9 +1316,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "ZAFSI": {
@@ -1420,9 +1360,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "ALLRO": {
@@ -1466,9 +1404,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "PANNELLO PLACCHE",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "BANCO WC SYSTEM",
-      "15:00-16:00": "PANNELLO WC SYSTEM",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO PLACCHE"
+      "15:00-16:00": "PANNELLO WC SYSTEM"
     }
   },
   "PANRO": {
@@ -1512,9 +1448,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   },
   "PEYFA": {
@@ -1558,9 +1492,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "RISCIACQUO SILENZIOSO",
       "13:00-14:00": "ORA LIBERA",
       "14:00-15:00": "TEST 500 PALLINE",
-      "15:00-16:00": "SELNOVA",
-      "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "PANNELLO WC SYSTEM"
+      "15:00-16:00": "SELNOVA"
     }
   },
   "ROSAL": {
@@ -1604,9 +1536,7 @@ window.SCHEDULE_DATA = {
       "12:00-13:00": "assente",
       "13:00-14:00": "assente",
       "14:00-15:00": "assente",
-      "15:00-16:00": "assente",
-      "16:00-17:00": "assente",
-      "17:00-18:00": "assente"
+      "15:00-16:00": "assente"
     }
   }
 };
