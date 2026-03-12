@@ -770,15 +770,15 @@ window.SCHEDULE_DATA = {
       "17:00-18:00": "ORA LIBERA"
     },
     "VENERDÌ 27": {
-      "9:00-10:00": "PANNELLO SCARICO 1",
-      "10:00-11:00": "ORA LIBERA",
-      "11:00-12:00": "PANNELLO FLOWFIT 1",
-      "12:00-13:00": "BANCO FLOWFIT",
-      "13:00-14:00": "ORA LIBERA",
-      "14:00-15:00": "BTW",
-      "15:00-16:00": "PANNELLO SCARICO 2",
+      "9:00-10:00": "BANCO FLOWFIT 1",
+      "10:00-11:00": "PANNELLO WC SYSTEM",
+      "11:00-12:00": "ORA LIBERA",
+      "12:00-13:00": "SELNOVA",
+      "13:00-14:00": "PANNELLO PLACCHE",
+      "14:00-15:00": "ORA LIBERA",
+      "15:00-16:00": "PANNELLO SCARICO 1",
       "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "BANCO SOLUZIONI DOCCIA"
+      "17:00-18:00": "DUOFIX"
     }
   },
   "FOSMA": {
@@ -1092,15 +1092,15 @@ window.SCHEDULE_DATA = {
       "17:00-18:00": "TEST 500 PALLINE"
     },
     "VENERDÌ 27": {
-      "9:00-10:00": "BANCO FLOWFIT",
-      "10:00-11:00": "PANNELLO WC SYSTEM",
-      "11:00-12:00": "ORA LIBERA",
-      "12:00-13:00": "SELNOVA",
-      "13:00-14:00": "PANNELLO PLACCHE",
-      "14:00-15:00": "ORA LIBERA",
-      "15:00-16:00": "PANNELLO SCARICO 1",
+      "9:00-10:00": "PANNELLO SCARICO 1",
+      "10:00-11:00": "ORA LIBERA",
+      "11:00-12:00": "PANNELLO FLOWFIT 1",
+      "12:00-13:00": "BANCO FLOWFIT 1",
+      "13:00-14:00": "ORA LIBERA",
+      "14:00-15:00": "BTW",
+      "15:00-16:00": "PANNELLO SCARICO 2",
       "16:00-17:00": "ORA LIBERA",
-      "17:00-18:00": "DUOFIX MODULE"
+      "17:00-18:00": "BANCO SOLUZIONI DOCCIA"
     }
   },
   "DEP": {
@@ -1758,7 +1758,7 @@ window.LUNCH_BREAKS = {
     "MARTEDÌ 24": "13:00-14:00",
     "MERCOLEDÌ 25": "13:00-14:00",
     "GIOVEDÌ 26": "12:00-13:00",
-    "VENERDÌ 27": "13:00-14:00"
+    "VENERDÌ 27": "14:00-15:00"
   },
   "FOSMA": {
     "MARTEDÌ 24": "12:00-13:00",
@@ -1800,7 +1800,7 @@ window.LUNCH_BREAKS = {
     "MARTEDÌ 24": "13:00-14:00",
     "MERCOLEDÌ 25": "12:00-13:00",
     "GIOVEDÌ 26": "14:00-15:00",
-    "VENERDÌ 27": "14:00-15:00"
+    "VENERDÌ 27": "13:00-14:00"
   },
   "DEP": {
     "MARTEDÌ 24": "13:00-14:00",
